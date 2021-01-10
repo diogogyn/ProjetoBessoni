@@ -1,0 +1,55 @@
+/*RESET*/
+*{margin:0; padding:0;}
+body {background:#999999 url(img/body.jpg) repeat-x; margin:5px;}
+#box {width:1000px; margin:0 auto;}
+#background{background:url(img/content.jpg) repeat-y scroll 50% 0px;}
+/*TOPO*/
+#header {height:130px; background:#333333;}
+#logo {float:left; margin:15px;}
+#headersp {height:45px; background:#333333;}
+#spacer {height:10px; background:#333333;}
+
+/*MENU*/
+#menu {height:40px; background:#333333; }
+#menu a {float:right; text-decoration:none; color:#FFF; font:20px "Kristen ITC"; padding:5px 15px;}
+#menu a:hover { border:2px solid #FFF; background:#000;}
+#menu img {float:right;}
+
+/*SERACH*/
+#search input {background:#FFF; border:4px double #330; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; padding:3px 5px;}
+#search input:hover {border:4px double #900;}
+.pesquisar {color:#FFF; font:14px Tahoma, Geneva, sans-serif;}
+#search {float:right; margin:10px; background:#333;}
+
+/*content*/
+#content {background:#FFF;}
+#conteudo {background:#FFF; width:610px; padding:5px; text-align:left; font:16px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; float:left;}
+#conteudo h1 {font:18px Tahoma, Geneva, sans-serif; color:#069; border-bottom:3px solid #069; margin:0 0 5px 0; padding:0 0 3px 0;}
+#conteudo h2 {font:16px Tahoma, Geneva, sans-serif; color:#999; font-weight:bold;}
+#conteudo p {margin:10px 0 10px 0;}
+#conteudo a {text-decoration:none; color:#09F; font-weight:bold;}
+#conteudo a:hover {color:#069;}
+
+#formcontato {margin:10px 0;}
+#formcontato fieldset {border:0; margin:0 0 5px 15px; color:#069; font-weight:bold;}
+#formcontato input {background:#FFF; padding:3px 5px; border:1px solid #069; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333;}
+#formcontato textarea {background:#FFF; padding:3px 5px; border:1px solid #069; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333;}
+#formcontato input:hover {cursor:pointer; border:1px solid #036;}
+#formcontato textarea:hover {cursor:pointer; border:1px solid #036;}
+
+/*Pagina da galeria de fotos*/
+
+#galeria ul {margin:0; padding:0; list-style:none;}
+#galeria ul li {width:280px; height:75px; overflow:hidden; background:#001B1C; border:3px outset #666; margin:5px 2px 3px 1px; display:inline; float:left;}
+#galeria ul li:hover {border:3px outset #333;}
+
+#sidebar{width:380px; background:url(img/sidebar.jpg) repeat-y; float:right;}
+#mural h2 {font:18px Tahoma, Geneva, sans-serif; color:#F90; font-weight:bold; padding:5px; border:1px #063; background:#333; float:left; width:370px; margin-top:10px;}
+#mural p {font:16px Tahoma, Geneva, sans-serif; font-weight:bold; color:#000; text-align:justify; padding:10px;}
+#muraltiitle {font:20px Tahoma, Geneva, sans-serif; color:#F90; font-weight:bold; padding:5px; border:1px #063; background:#001B1C; float:left; width:370px; margin-top:10px;}
+
+#clear{clear:both;}
+#footer{height:80px; background:#CCC; margin:0 auto; width:1000px; font:20px "Times New Roman", Times, serif; text-align:center; padding:25px 0 0 0;}
+#footer h4 {text-align:right; font:16px "Times New Roman", Times, serif;}
+#footer h4 a {text-decoration:none; color:#03F; font-weight:bold; margin:5px; font:17px "Lucida Console", Monaco, monospace;}
+#footer h4 a:hover {color:#09F;}

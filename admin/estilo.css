@@ -1,0 +1,10 @@
+body {background:#333;}
+#box {width:800px; margin:0 auto;}
+#loginbox {margin:150px 0; text-align:center; color:#FFF;}
+#loginbox a {font:25px "Times New Roman", Times, serif; text-decoration:none; color:#FFF; font-weight:bold;}
+#loginbox a:hover {color:#09F;}
+#login input {border:1px solid #069; background:#FFF; font:18px Tahoma, Geneva, sans-serif; color:#333;}
+#painel {margin:30px auto 0 auto; border:1px solid #FFF;}
+#painel input {border:1px solid #069; background:#FFF; font:16px Tahoma, Geneva, sans-serif; color:#333;}
+#painel textarea {border:1px solid #069; background:#FFF; font:16px Tahoma, Geneva, sans-serif; color:#333;}
+#painel select {border:1px solid #069; background:#FFF; font:16px Tahoma, Geneva, sans-serif; color:#333;}

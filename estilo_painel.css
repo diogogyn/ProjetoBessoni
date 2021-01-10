@@ -1,0 +1,36 @@
+*{margin:0; padding:0;}
+body {background:#999999 url(../img/body.jpg) repeat-x; margin:5px;}
+#box {width:1000px; margin:0 auto;}
+#background{background:url(../img/content.jpg) repeat-y scroll 50% 0px;}
+/*TOPO*/
+#header {height:130px; background:#333333;}
+#logo {float:left; margin:15px;}
+#headersp {height:45px; background:#333333;}
+#spacer {height:10px; background:#333333;}
+
+/*MENU*/
+#menu {height:40px; background:#333333; }
+#menu a {float:right; text-decoration:none; color:#FFF; font:20px "Kristen ITC"; padding:5px 15px;}
+#menu a:hover { border:2px solid #FFF; background:#000;}
+#menu img {float:right;}
+
+/*SERACH*/
+#search input {background:#FFF; border:4px double #330; font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#333; padding:3px 5px;}
+#search input:hover {border:4px double #900;}
+.pesquisar {color:#FFF; font:14px Tahoma, Geneva, sans-serif;}
+#search {float:right; margin:10px; background:#333;}
+
+/*content*/
+#content {background:#FFF;}
+#conteudo input, textarea {padding:3px; width:400px; border:1px solid #069; font:16px Tahoma, Geneva, sans-serif; color:#666; font-weight:bold;}
+#conteudoinput:hover{border:1px solid #0CF;}
+#conteudo .btn{height:30px; display:block; margin:10px auto; background:#999; color:#fff;}
+#conteudo .btn:hover{border:2px solid #0CF; background:#666;}
+.ok{padding:3px; background:#EAFFD5; border:1px solid #090;}
+.no{padding:3px; background:#FDE; border:1px solid #F00;}
+
+#clear{clear:both;}
+#footer{height:80px; background:#CCC; margin:0 auto; width:1000px; font:20px "Times New Roman", Times, serif; text-align:center; padding:25px 0 0 0;}
+#footer h4 {text-align:right; font:16px "Times New Roman", Times, serif;}
+#footer h4 a {text-decoration:none; color:#03F; font-weight:bold; margin:5px; font:17px "Lucida Console", Monaco, monospace;}
+#footer h4 a:hover {color:#09F;}
